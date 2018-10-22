@@ -1,0 +1,21 @@
+2018-oct-21 14:42:45.810 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 14:42:45.895 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 17456 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 14:42:45.896 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 14:42:45.948 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@479d31f3: startup date [Sun Oct 21 14:42:45 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 14:42:46.680 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 14:42:46.691 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 14:42:46.697 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:42:46
+2018-oct-21 14:42:46.697 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:42:46.701 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.241 seconds (JVM running for 1.983)
+2018-oct-21 14:42:51.698 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:42:51
+2018-oct-21 14:42:51.699 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:42:56.698 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:42:56
+2018-oct-21 14:42:56.698 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:43:01.697 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:43:01
+2018-oct-21 14:43:01.698 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:43:06.698 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:43:06
+2018-oct-21 14:43:06.699 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:43:11.698 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:43:11
+2018-oct-21 14:43:11.699 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 14:43:16.697 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 14:43:16
+2018-oct-21 14:43:16.699 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS

@@ -1,0 +1,887 @@
+2018-oct-21 16:04:16.147 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 16:04:16.258 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 21556 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 16:04:16.259 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 16:04:16.316 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6304101a: startup date [Sun Oct 21 16:04:16 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 16:04:17.523 WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'estadoMasDao': Unsatisfied dependency expressed through field 'jdbcTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.jdbc.core.JdbcTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-oct-21 16:04:17.534 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-oct-21 16:04:18.226 ERROR [main] o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jdbcTemplate in com.ingenieriahuemul.flamenco.app.dao.BaseDao required a bean of type 'org.springframework.jdbc.core.JdbcTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.jdbc.core.JdbcTemplate' in your configuration.
+
+2018-oct-21 16:09:03.179 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 16:09:03.264 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 27204 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 16:09:03.265 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 16:09:03.326 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@498d318c: startup date [Sun Oct 21 16:09:03 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 16:09:04.053 WARN  [main] o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'estadoMasDao': Unsatisfied dependency expressed through field 'jdbcTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.jdbc.core.JdbcTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-oct-21 16:09:04.060 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-oct-21 16:09:04.200 ERROR [main] o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jdbcTemplate in com.ingenieriahuemul.flamenco.app.dao.BaseDao required a bean of type 'org.springframework.jdbc.core.JdbcTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.jdbc.core.JdbcTemplate' in your configuration.
+
+2018-oct-21 16:10:45.918 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 16:10:46.003 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 6648 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 16:10:46.004 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 16:10:46.055 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 16:10:46 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 16:10:47.427 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 16:10:47.429 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 16:10:47.434 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 16:10:47.446 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 16:10:47.459 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 16:10:47
+2018-oct-21 16:10:47.460 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 16:10:47.463 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.879 seconds (JVM running for 2.501)
+2018-oct-21 16:10:47.475 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 16:10:49.816 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 16:10:50.298 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Unable to determine the correct call signature - no procedure/function/signature for 'flaestadoactualapp'
+
+2018-oct-21 16:10:52.456 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 16:10:52
+2018-oct-21 16:10:52.457 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 16:10:52.490 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Unable to determine the correct call signature - no procedure/function/signature for 'flaestadoactualapp'
+
+2018-oct-21 16:10:57.456 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 16:10:57
+2018-oct-21 16:10:57.456 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 16:10:57.463 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Unable to determine the correct call signature - no procedure/function/signature for 'flaestadoactualapp'
+
+2018-oct-21 16:59:01.907 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 16:59:01.991 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 28500 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 16:59:01.991 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 16:59:02.038 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1ae8bcbc: startup date [Sun Oct 21 16:59:02 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 16:59:03.616 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 16:59:03.633 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 16:59:03.633 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 16:59:03.664 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 16:59:03.680 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 2.257 seconds (JVM running for 3.088)
+2018-oct-21 16:59:03.711 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 16:59:03
+2018-oct-21 16:59:03.711 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 16:59:17.202 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 16:59:41.209 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 48 common frames omitted
+2018-oct-21 16:59:41.231 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+2018-oct-21 17:04:09.817 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 17:04:09.955 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 28100 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 17:04:09.956 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 17:04:10.017 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5170bcf4: startup date [Sun Oct 21 17:04:10 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 17:04:12.395 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 17:04:12.431 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 17:04:12.444 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 17:04:12.477 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 17:04:12.504 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 3.109 seconds (JVM running for 4.154)
+2018-oct-21 17:04:12.517 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:12
+2018-oct-21 17:04:12.520 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:20.659 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:04:22.045 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:04:22.047 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:04:22.051 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:22
+2018-oct-21 17:04:22.052 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:22.052 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:04:23.110 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:04:23.111 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:04:23.115 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:23
+2018-oct-21 17:04:23.115 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:23.115 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:04:24.147 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:04:24.148 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:04:27.492 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:27
+2018-oct-21 17:04:27.492 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:27.492 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:04:28.530 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:04:28.531 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:04:32.493 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:32
+2018-oct-21 17:04:32.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:32.493 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:04:33.528 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:04:33.529 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:04:37.491 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:04:37
+2018-oct-21 17:04:37.491 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:04:37.491 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:10:09.718 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 17:10:09.816 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 28256 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 17:10:09.817 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 17:10:09.868 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 17:10:09 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 17:10:12.105 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 17:10:12.107 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 17:10:12.115 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 17:10:12.134 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 17:10:12.199 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 2.912 seconds (JVM running for 3.685)
+2018-oct-21 17:10:12.207 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:10:12
+2018-oct-21 17:10:12.207 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:10:12.279 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:10:13.804 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:10:13.805 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:10:17.190 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:10:17
+2018-oct-21 17:10:17.190 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:10:17.190 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:10:18.460 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:10:18.461 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 17:10:22.190 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 17:10:22
+2018-oct-21 17:10:22.190 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 17:10:22.191 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 17:10:23.230 ERROR [pool-1-thread-1] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+	at com.mysql.jdbc.MysqlIO.readPacket(MysqlIO.java:578)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1014)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:70)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:253)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:314)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:297)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:356)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:394)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:192)
+	at com.ingenieriahuemul.flamenco.app.dao.BaseDao.ejecutarStoredProcedure(BaseDao.java:63)
+	at com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao.obtenerEstadoActual(EstadoMasDao.java:28)
+	at com.ingenieriahuemul.flamenco.app.service.MonitorService.run(MonitorService.java:20)
+	at com.ingenieriahuemul.flamenco.app.schedule.ScheduledTasks.reportCurrentTime(ScheduledTasks.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-oct-21 17:10:23.231 ERROR [pool-1-thread-1] com.ingenieriahuemul.flamenco.app.dao.BaseDao - Hubo un error al ejecutar el SP <flaEstadoActualApp>: Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.PacketTooBigException: Packet for query is too large (4739923 > 1048576). You can change this value on the server by setting the max_allowed_packet' variable.
+
+2018-oct-21 21:51:29.667 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 21:51:29.882 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 5144 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 21:51:29.882 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 21:51:29.945 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@123ef382: startup date [Sun Oct 21 21:51:29 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 21:51:31.526 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 21:51:31.587 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 21:51:31.587 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 21:51:31.603 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 21:51:31.618 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:51:31
+2018-oct-21 21:51:31.618 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:51:31.618 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 2.827 seconds (JVM running for 4.473)
+2018-oct-21 21:51:31.634 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 21:51:33.022 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 21:51:36.637 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:51:36
+2018-oct-21 21:51:36.638 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:51:41.636 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:51:41
+2018-oct-21 21:51:41.637 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:51:46.636 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:51:46
+2018-oct-21 21:51:46.637 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:51:51.635 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:51:51
+2018-oct-21 21:51:51.637 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:53:28.118 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 21:53:28.180 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 11332 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 21:53:28.180 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 21:53:28.226 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 21:53:28 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 21:53:29.445 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 21:53:29.457 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 21:53:29.458 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 21:53:29.521 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 21:53:29.536 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:53:29
+2018-oct-21 21:53:29.536 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:53:29.536 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.753 seconds (JVM running for 2.45)
+2018-oct-21 21:53:29.552 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 21:53:30.830 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 21:53:30.929 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:30.945 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.555 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:53:34
+2018-oct-21 21:53:34.556 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:34.605 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.556 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:53:39
+2018-oct-21 21:53:39.557 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:39.590 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null
+2018-oct-21 21:53:59.534 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 21:53:59.614 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 6932 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 21:53:59.614 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 21:53:59.661 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f5ac9e4: startup date [Sun Oct 21 21:53:59 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 21:54:00.866 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 21:54:00.870 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 21:54:00.932 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 21:54:00.932 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 21:54:00.948 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:54:00
+2018-oct-21 21:54:00.948 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:54:00.948 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.736 seconds (JVM running for 2.491)
+2018-oct-21 21:54:00.964 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 21:54:01.944 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@12a76f64
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@7ec6a847
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@6f7d8eab
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@66eba1be
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@4f9e3e48
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@451336c
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@75afd9b
+2018-oct-21 21:54:02.014 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@3c875a9f
+2018-oct-21 21:54:05.955 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:54:05
+2018-oct-21 21:54:05.956 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@4a01ef4
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@53efd6a4
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@a4a56f3
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@587348d
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@1d4cd77
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@2ca3711f
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@740657b6
+2018-oct-21 21:54:05.989 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - com.ingenieriahuemul.flamenco.app.model.MasStatus@489936e7
+2018-oct-21 21:55:43.330 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 21:55:43.520 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 11504 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 21:55:43.536 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 21:55:43.583 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 21:55:43 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 21:55:44.930 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 21:55:44.942 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 21:55:44.943 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 21:55:44.943 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 21:55:44.958 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:55:44
+2018-oct-21 21:55:44.958 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:55:44.974 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 2.047 seconds (JVM running for 2.806)
+2018-oct-21 21:55:44.974 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 21:55:45.793 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:55:45.871 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - null, null, 
+2018-oct-21 21:59:19.195 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 21:59:19.277 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 224 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 21:59:19.277 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 21:59:19.339 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@42e99e4a: startup date [Sun Oct 21 21:59:19 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 21:59:20.580 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 21:59:20.591 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 21:59:20.592 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 21:59:20.654 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 21:59:20.670 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:59:20
+2018-oct-21 21:59:20.670 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:59:20.670 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.863 seconds (JVM running for 2.509)
+2018-oct-21 21:59:20.685 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 21:59:21.570 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 21:59:21.655 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:21.655 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 21:59:21.656 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:25.674 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:59:25
+2018-oct-21 21:59:25.675 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:59:25.724 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:25.724 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 21:59:25.740 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:30.679 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 21:59:30
+2018-oct-21 21:59:30.681 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 21:59:30.729 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:05.954 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 22:04:06.024 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 10064 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 22:04:06.024 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 22:04:06.090 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f5ac9e4: startup date [Sun Oct 21 22:04:06 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 22:04:07.392 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 22:04:07.401 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 22:04:07.402 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 22:04:07.402 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 22:04:07.418 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:04:07
+2018-oct-21 22:04:07.418 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:04:07.418 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.808 seconds (JVM running for 2.465)
+2018-oct-21 22:04:07.434 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 22:04:08.273 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 22:04:08.492 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam7-, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:04:08.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:12.430 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:04:12
+2018-oct-21 22:04:12.431 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam7-, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:04:12.480 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:06:57.098 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 22:06:57.195 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 9644 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 22:06:57.197 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 22:06:57.230 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 22:06:57 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 22:06:58.385 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 22:06:58.399 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 22:06:58.400 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 22:06:58.462 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 22:06:58.478 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:06:58
+2018-oct-21 22:06:58.478 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:06:58.478 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.707 seconds (JVM running for 2.31)
+2018-oct-21 22:06:58.493 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 22:06:59.408 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=CAM7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:06:59.481 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:07:03.492 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:07:03
+2018-oct-21 22:07:03.493 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=CAM7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:07:03.542 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:35:58.464 ERROR [main] o.s.b.context.logging.LoggingApplicationListener - Cannot set level: INFO, DEBUG for 'null'
+2018-oct-21 22:35:58.544 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Starting Application on DESKTOP-E1F5OCP with PID 6964 (C:\UNLAM\PROY\SERV_LOCAL\flamenco-app\target\classes started by jonathan in C:\UNLAM\PROY\SERV_LOCAL\flamenco-app)
+2018-oct-21 22:35:58.545 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - No active profile set, falling back to default profiles: default
+2018-oct-21 22:35:58.604 INFO  [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59fd97a8: startup date [Sun Oct 21 22:35:58 GMT-03:00 2018]; root of context hierarchy
+2018-oct-21 22:35:59.805 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-oct-21 22:35:59.807 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-oct-21 22:35:59.813 INFO  [main] o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-oct-21 22:35:59.878 INFO  [main] o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-oct-21 22:35:59.886 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:35:59
+2018-oct-21 22:35:59.896 INFO  [main] com.ingenieriahuemul.flamenco.app.Application - Started Application in 1.756 seconds (JVM running for 2.346)
+2018-oct-21 22:35:59.896 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:35:59.914 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-oct-21 22:36:00.182 INFO  [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=CAM7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:36:00.268 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:04.888 INFO  [pool-1-thread-1] c.i.flamenco.app.schedule.ScheduledTasks - The time is now 22:36:04
+2018-oct-21 22:36:04.889 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - Ejecuto procesamiento monitoreo de obtencion de estados de MAS
+2018-oct-21 22:36:04.929 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=CAM7, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=1, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam8, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=2, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam9, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=3, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP11, valor=21.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=4, idEmpresa=1000, status=MALA]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=DEP12, valor=22.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=5, idEmpresa=1000, status=MALA]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam4, valor=15.00, fechaHoraActualizado=2018-10-18 15:59:31.0, orden=6, idEmpresa=1000, status=BIEN]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam5, valor=7.00, fechaHoraActualizado=2018-10-20 20:19:54.0, orden=7, idEmpresa=1000, status=MALB]
+2018-oct-21 22:36:04.930 INFO  [pool-1-thread-1] c.i.flamenco.app.service.MonitorService - MasStatus [nombre=Cam6, valor=---, fechaHoraActualizado=2018-10-18 12:34:42.0, orden=8, idEmpresa=1000, status=BIEN]
