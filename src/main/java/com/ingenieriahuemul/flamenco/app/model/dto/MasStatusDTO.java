@@ -1,6 +1,6 @@
-package com.ingenieriahuemul.flamenco.app.model;
+package com.ingenieriahuemul.flamenco.app.model.dto;
 
-public class MasStatus {
+public class MasStatusDTO {
 	
 	private String nombre;
 	private String valor;

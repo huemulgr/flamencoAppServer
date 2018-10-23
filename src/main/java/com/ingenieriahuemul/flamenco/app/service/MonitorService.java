@@ -8,7 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao;
-import com.ingenieriahuemul.flamenco.app.model.MasStatus;
+import com.ingenieriahuemul.flamenco.app.model.NotificationCloud;
+import com.ingenieriahuemul.flamenco.app.model.dto.MasStatusDTO;
 
 @Service
 public class MonitorService {
@@ -16,14 +17,18 @@ public class MonitorService {
 
 	@Autowired
 	private EstadoMasDao estadoMasDao;
-
+	
+	@Autowired
+	private NotificationCloud notificationCloud;
+	
 	public void run() {
 		logger.info("Ejecuto procesamiento monitoreo de obtencion de estados de MAS");
 
-		List<MasStatus> lista = estadoMasDao.obtenerEstadoActual();
+		List<MasStatusDTO> lista = estadoMasDao.obtenerEstadoActual();
 
-		for (MasStatus masStatus : lista) {
+		for (MasStatusDTO masStatus : lista) {
 			logger.info(masStatus.toString());
+			notificationCloud.sendMessage(masStatus);
 		}
 	}
 
