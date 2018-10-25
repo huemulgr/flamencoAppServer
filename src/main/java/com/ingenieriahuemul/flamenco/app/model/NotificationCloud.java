@@ -14,6 +14,7 @@ import com.google.firebase.FirebaseOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.ingenieriahuemul.flamenco.app.model.dto.MasStatusDTO;
+import com.ingenieriahuemul.flamenco.app.model.dto.UsuariosAppDTO;
 
 @Service
 public class NotificationCloud {
@@ -36,13 +37,13 @@ public class NotificationCloud {
 		}
 	}
 
-	public void sendMessage(MasStatusDTO masStatus) {
+	public void sendMessage(MasStatusDTO masStatus, String codEmpresa) {
 
 		// As an admin, the app has access to read and write all data, regardless of
 		// Security Rules
-		DatabaseReference ref = FirebaseDatabase.getInstance().getReference("ROOT");
+		DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users");
 
-		DatabaseReference usersRef = ref.child("WlQ5D2xt5URTTSVcgCSNzzG5IMj2");
+		DatabaseReference usersRef = ref.child(codEmpresa);
 
 		Map<String, Object> listMas = new HashMap<String, Object>();
 
@@ -51,5 +52,18 @@ public class NotificationCloud {
 		// usersRef.setValueAsync(listMas);
 		usersRef.updateChildrenAsync(listMas);
 
+	}
+
+	public void sendMessageUserValid(UsuariosAppDTO usuariosAppDTO) {
+		DatabaseReference ref = FirebaseDatabase.getInstance().getReference("valid_users");
+
+		DatabaseReference usersRef = ref.child(usuariosAppDTO.getEmpresa());
+
+		Map<String, Object> listMas = new HashMap<String, Object>();
+
+		listMas.put("mail_id_usuario_" + usuariosAppDTO.getIdUsuario(), usuariosAppDTO.getEmail());
+
+		// usersRef.setValueAsync(listMas);
+		usersRef.updateChildrenAsync(listMas);
 	}
 }

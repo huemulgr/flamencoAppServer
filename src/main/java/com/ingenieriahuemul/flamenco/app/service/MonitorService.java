@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao;
 import com.ingenieriahuemul.flamenco.app.model.NotificationCloud;
 import com.ingenieriahuemul.flamenco.app.model.dto.MasStatusDTO;
+import com.ingenieriahuemul.flamenco.app.model.dto.UsuariosAppDTO;
 
 @Service
 public class MonitorService {
@@ -24,11 +25,30 @@ public class MonitorService {
 	public void run() {
 		logger.info("Ejecuto procesamiento monitoreo de obtencion de estados de MAS");
 
-		List<MasStatusDTO> lista = estadoMasDao.obtenerEstadoActual();
+		List<UsuariosAppDTO> listaUsuarios = estadoMasDao.obtenerUsuariosHabilitadosApp();
+		
+		enviosUsuariosValidosALaNube(listaUsuarios);
+		
+		enviosEstadosMasALaNube(listaUsuarios);
+		
+	}
 
-		for (MasStatusDTO masStatus : lista) {
-			logger.info(masStatus.toString());
-			notificationCloud.sendMessage(masStatus);
+	private void enviosUsuariosValidosALaNube(List<UsuariosAppDTO> listaUsuarios) {
+		for (UsuariosAppDTO usuariosAppDTO : listaUsuarios) {
+			logger.info(usuariosAppDTO.toString());
+			notificationCloud.sendMessageUserValid(usuariosAppDTO);
+		}
+	}
+
+	private void enviosEstadosMasALaNube(List<UsuariosAppDTO> listaUsuarios) {
+		for (UsuariosAppDTO usuariosAppDTO : listaUsuarios) {
+			
+			List<MasStatusDTO> lista = estadoMasDao.obtenerEstadoActual();
+			
+			for (MasStatusDTO masStatus : lista) {
+				logger.info(masStatus.toString());
+				notificationCloud.sendMessage(masStatus, usuariosAppDTO.getEmpresa());
+			}
 		}
 	}
 
