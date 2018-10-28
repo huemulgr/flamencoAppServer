@@ -8,6 +8,8 @@ public class MasStatusDTO {
 	private String orden;
 	private String idEmpresa;
 	private String status;
+	private String actualizado;
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -44,13 +46,18 @@ public class MasStatusDTO {
 	public void setStatus(String status) {
 		this.status = status;
 	}
+	public String getActualizado() {
+		return actualizado;
+	}
+	public void setActualizado(String actualizado) {
+		this.actualizado = actualizado;
+	}
 	
 	@Override
 	public String toString() {
-		return "MasStatus [nombre=" + nombre + ", valor=" + valor + ", fechaHoraActualizado=" + fechaHoraActualizado
-				+ ", orden=" + orden + ", idEmpresa=" + idEmpresa + ", status=" + status + "]";
+		return "MasStatusDTO [nombre=" + nombre + ", valor=" + valor + ", fechaHoraActualizado=" + fechaHoraActualizado
+				+ ", orden=" + orden + ", idEmpresa=" + idEmpresa + ", status=" + status + ", actualizado="
+				+ actualizado + "]";
 	}
-	
-	
 	
 }
