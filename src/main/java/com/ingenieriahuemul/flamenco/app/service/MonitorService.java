@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 
 import com.ingenieriahuemul.flamenco.app.dao.EstadoMasDao;
 import com.ingenieriahuemul.flamenco.app.model.NotificationCloud;
+import com.ingenieriahuemul.flamenco.app.model.dto.EmpresaDTO;
 import com.ingenieriahuemul.flamenco.app.model.dto.MasStatusDTO;
+import com.ingenieriahuemul.flamenco.app.model.dto.MessagePush;
 import com.ingenieriahuemul.flamenco.app.model.dto.UsuariosAppDTO;
 
 @Service
@@ -25,30 +27,61 @@ public class MonitorService {
 	public void run() {
 		logger.info("Ejecuto procesamiento monitoreo de obtencion de estados de MAS");
 
-		List<UsuariosAppDTO> listaUsuarios = estadoMasDao.obtenerUsuariosHabilitadosApp();
+		enviosUsuariosValidosALaNube();
 		
-		enviosUsuariosValidosALaNube(listaUsuarios);
+		enviosEstadosMasALaNube();
 		
-		enviosEstadosMasALaNube(listaUsuarios);
+		enviarNotificacionesPush();
 		
+		enviarValoresQR();
 	}
 
-	private void enviosUsuariosValidosALaNube(List<UsuariosAppDTO> listaUsuarios) {
+
+	private void enviarValoresQR() {
+		List<EmpresaDTO> listaEmpresas = obtenerListaDeEmpresas();
+		
+		for (EmpresaDTO empresaDTO : listaEmpresas) {
+			logger.info(empresaDTO.toString());
+			EmpresaDTO informacionEmpresa = estadoMasDao.obtenerInformacionEmpresa(empresaDTO.getId());
+			notificationCloud.sendCodeQRForCompany(informacionEmpresa);
+		}
+	}
+
+
+	private List<EmpresaDTO> obtenerListaDeEmpresas() {
+		return estadoMasDao.traerTodasLasEmpresas();
+	}
+
+
+	private void enviosUsuariosValidosALaNube() {
+		List<UsuariosAppDTO> listaUsuarios = estadoMasDao.obtenerUsuariosHabilitadosApp();
+		
 		for (UsuariosAppDTO usuariosAppDTO : listaUsuarios) {
 			logger.info(usuariosAppDTO.toString());
 			notificationCloud.sendMessageUserValid(usuariosAppDTO);
 		}
 	}
 
-	private void enviosEstadosMasALaNube(List<UsuariosAppDTO> listaUsuarios) {
-		for (UsuariosAppDTO usuariosAppDTO : listaUsuarios) {
+	private void enviosEstadosMasALaNube() {
+		List<MasStatusDTO> lista = estadoMasDao.obtenerEstadoActual();
 			
-			List<MasStatusDTO> lista = estadoMasDao.obtenerEstadoActual();
+		for (MasStatusDTO masStatus : lista) {
+			logger.info(masStatus.toString());
 			
-			for (MasStatusDTO masStatus : lista) {
-				logger.info(masStatus.toString());
-				notificationCloud.sendMessage(masStatus, usuariosAppDTO.getEmpresa());
-			}
+			notificationCloud.sendMessage(masStatus, masStatus.getIdEmpresa());
+		}
+		
+	}
+	
+	private void enviarNotificacionesPush() {
+		List<MessagePush> lista = estadoMasDao.obtenerMensajesPush();
+		
+		int orden = 0;
+		
+		for (MessagePush msjPush : lista) {
+			logger.info(msjPush.toString());
+			notificationCloud.sendNotificationPush(msjPush, orden);
+			orden++;
 		}
 	}
 

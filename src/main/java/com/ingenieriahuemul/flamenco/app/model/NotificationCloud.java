@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.springframework.stereotype.Service;
 
 import com.google.auth.oauth2.GoogleCredentials;
@@ -13,12 +15,15 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.ingenieriahuemul.flamenco.app.model.dto.EmpresaDTO;
 import com.ingenieriahuemul.flamenco.app.model.dto.MasStatusDTO;
+import com.ingenieriahuemul.flamenco.app.model.dto.MessagePush;
 import com.ingenieriahuemul.flamenco.app.model.dto.UsuariosAppDTO;
 
 @Service
 public class NotificationCloud {
-
+	private static final Logger logger = LoggerFactory.getLogger(NotificationCloud.class);
+	
 	private FileInputStream serviceAccount;
 	private FirebaseOptions options;
 	
@@ -65,5 +70,36 @@ public class NotificationCloud {
 
 		// usersRef.setValueAsync(listMas);
 		usersRef.updateChildrenAsync(listMas);
+	}
+
+	public void sendNotificationPush(MessagePush msjPush, int orden) {
+
+		DatabaseReference ref = FirebaseDatabase.getInstance().getReference("notificacion");
+	
+		DatabaseReference usersRef = ref.child(msjPush.getIdEmpresa());
+
+		Map<String, Object> listMas = new HashMap<String, Object>();
+		
+		msjPush.setTitulo("Notificacion Flamenco");
+		
+		listMas.put("mensaje_" + orden, msjPush);
+
+		// usersRef.setValueAsync(listMas);
+		usersRef.updateChildrenAsync(listMas);
+	}
+
+	public void sendCodeQRForCompany(EmpresaDTO informacionEmpresa) {
+		logger.info(informacionEmpresa.toString());
+		
+		DatabaseReference ref = FirebaseDatabase.getInstance().getReference("lista_codigo_qr");
+		
+		DatabaseReference usersRef = ref.child(informacionEmpresa.getId());
+		
+		Map<String, Object> listQR = new HashMap<String, Object>();
+		
+		listQR.put("codigo_qr" , informacionEmpresa.getQr());
+		
+		// usersRef.setValueAsync(listMas);
+		usersRef.updateChildrenAsync(listQR);
 	}
 }
